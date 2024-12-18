@@ -5,12 +5,11 @@ import Header from "@/components/landing/Header";
 export default function Home() {
   return (
     <>
-      <main className="py-8">
-        <section className="container">
-          <Header />
-          <EventList />
-        </section>
-      </main>
+      <section className="container">
+        <Header />
+        <EventList />
+      </section>
+
     </>
   );
 }
